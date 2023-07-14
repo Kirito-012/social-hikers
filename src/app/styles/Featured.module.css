@@ -1,0 +1,130 @@
+/* sm */
+@media (max-width: 425px) {
+	.featured__title {
+		padding-top: 4rem;
+		font-size: 0.75rem;
+	}
+	.featured__container {
+		margin: 0 5rem;
+
+		height: 20rem;
+	}
+	.featured__iconholder {
+		height: 10rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.featured__swiggylogo {
+		width: 106px;
+	}
+	.featured__realmelogo {
+		width: 94px;
+	}
+	.featured__mxplayerlogo {
+		width: 95px;
+	}
+	.featured__whitehilllogo {
+		width: 70px;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 596px) {
+	.featured__whitehilllogo {
+		display: none;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	.featured__swiggylogo {
+		width: 106px;
+	}
+	.featured__realmelogo {
+		width: 94px;
+	}
+	.featured__mxplayerlogo {
+		width: 95px;
+	}
+	.featured__whitehilllogo {
+		width: 70px;
+	}
+	.featured__container {
+		margin: 0 5rem;
+		padding-top: 4rem;
+		height: 10rem;
+	}
+	.featured__title {
+		font-size: 0.75rem;
+	}
+	.featured__iconholder {
+		height: 4rem;
+	}
+}
+
+/* lg */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.featured__swiggylogo {
+		width: 136px;
+	}
+	.featured__realmelogo {
+		width: 144px;
+	}
+	.featured__mxplayerlogo {
+		width: 140px;
+	}
+	.featured__whitehilllogo {
+		width: 80px;
+	}
+	.featured__container {
+		margin: 0 5rem;
+		padding-top: 4rem;
+		height: 10rem;
+		padding-bottom: 9rem;
+	}
+	.featured__title {
+		font-size: 0.75rem;
+	}
+	.featured__iconholder {
+		height: 4.5rem;
+	}
+}
+
+/* xl */
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.featured__swiggylogo {
+		width: 166px;
+	}
+	.featured__realmelogo {
+		width: 174px;
+	}
+	.featured__mxplayerlogo {
+		width: 200px;
+	}
+	.featured__whitehilllogo {
+		width: 80px;
+	}
+	.featured__container {
+		margin: 0 9rem;
+		padding-top: 4rem;
+		height: 10rem;
+		padding-bottom: 9rem;
+	}
+	.featured__title {
+		font-size: 1rem;
+	}
+	.featured__iconholder {
+		height: 6rem;
+	}
+}
+
+/* xxL */
+@media (min-width: 1280px) {
+	.featured__container {
+		margin: 0 11rem;
+		padding-top: 4rem;
+		height: 10rem;
+		padding-bottom: 9rem;
+	}
+	.featured__iconholder {
+		height: 6rem;
+	}
+}
