@@ -6,6 +6,7 @@ import Aboutus from "./components/Aboutus";
 import Creative from "./components/Creative";
 import Testimonials from "./components/Testimonials";
 import Head from "next/head";
+import Contacts from "./components/Contacts";
 export default function Home() {
 	return (
 		<>
@@ -23,7 +24,9 @@ export default function Home() {
 			<div className="text-white  testimonials_bg">
 				<Testimonials />
 			</div>
-			
+			<div>
+				<Contacts />
+			</div>
 		</>
 	);
 }

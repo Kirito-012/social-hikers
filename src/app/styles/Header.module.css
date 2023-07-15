@@ -3,13 +3,12 @@
 	.header__container {
 		height: 10vh;
 	}
-	.names {
-		display: none;
-	}
 	.header__slider {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		display: block;
+		position: absolute;
+		z-index: 1000;
+		top: 2rem;
+		right: 1rem;
 	}
 	.header__section {
 		padding: 0.5rem 0;
@@ -17,10 +16,40 @@
 	.container2 {
 		padding: 0 4rem;
 	}
+	.dekstopNav {
+		display: none;
+	}
+	.mobileNav {
+		position: fixed;
+		z-index: 99;
+		inset: 0 0 0 50%;
+		flex-direction: column;
+		padding: min(30vh, 10rem) 1rem;
+		background: hsl(0 0% 0%/0.5);
+		backdrop-filter: blur(2em);
+	}
+	.mobileNav_transition {
+		/* height: 100vh; */
+		/* width: 50vw; */
+		/* transition: 1s all ease-in-out; */
+		/* animation-name: slider;
+		animation-duration: 0.3s;
+		animation-timing-function: ease-in-out;
+		animation-play-state: running; */
+	}
+	/* 
+	@keyframes slider {
+		from {
+			transform: translateX(100%);
+		}
+		to {
+			transform: translateX(0);
+		}
+	} */
 }
 
 /* sm */
-@media (max-width: 642px) {
+@media (min-width: 426px) and (max-width: 642px) {
 	.Links {
 		font-size: 0.7rem;
 	}
