@@ -48,12 +48,14 @@ const Contact_info_card = () => {
 								className={`flex items-center roboto tracking-[0.05rem] text-[0.75rem] ${styles["info__number"]}`}
 							>
 								<Image
-									className={`${styles["info__icons"]}`}
+									className={`cursor-pointer ${styles["info__icons"]}`}
 									src="/phone.png"
 									width={25}
 									height={25}
 								></Image>
-								<h3 className={`ml-6 ${styles["info__icon_desc"]}`}>
+								<h3
+									className={`ml-6 cursor-pointer ${styles["info__icon_desc"]}`}
+								>
 									+91 7017979071
 								</h3>
 							</div>
@@ -61,12 +63,14 @@ const Contact_info_card = () => {
 								className={`flex items-center roboto tracking-[0.05rem] mt-8 text-[0.75rem] ${styles["info__mail"]}`}
 							>
 								<Image
-									className={`${styles["info__icons"]}`}
+									className={` cursor-pointer ${styles["info__icons"]}`}
 									src="/mail.png"
 									width={25}
 									height={25}
 								></Image>
-								<h3 className={`ml-6 ${styles["info__icon_desc"]}`}>
+								<h3
+									className={`ml-6 cursor-pointer ${styles["info__icon_desc"]}`}
+								>
 									hello@socialhikers.in
 								</h3>
 							</div>

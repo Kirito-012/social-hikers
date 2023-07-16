@@ -1,3 +1,16 @@
+.active {
+	content: "";
+	padding: 0 20px;
+	padding-top: 2px;
+	border-radius: 10px;
+	color: white;
+	background: white;
+}
+.names {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 425px) {
 	.header__container {

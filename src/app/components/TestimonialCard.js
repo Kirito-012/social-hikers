@@ -6,17 +6,17 @@ const TestimonialCard = ({ imageURL, name, review }) => {
 	return (
 		<>
 			<div
-				className={`relative h-[27.9rem] flex justify-center  text-center text-sm ${styles["test__card"]}`}
+				className={`relative h-[27.9rem] flex justify-center text-center text-sm ${styles["test__card"]}`}
 			>
 				<div
-					className={`absolute shadow-black shadow-[0_-10px_40px_-15px] bg-[#0e1940] w-[11rem] h-[11rem] rounded-full ${styles["tcard__imagebg"]}`}
+					className={`absolute flex justify-center align-middle shadow-black shadow-[0_-10px_40px_-15px] bg-[#0e1940] w-[11rem] h-[11rem] rounded-full ${styles["tcard__imagebg"]}`}
 				>
 					<Image
-						className={`flex justify-center top-0 w-[11rem] h-[11rem] rounded-full object-cover ${styles["tcard__image"]}`}
+						className={`rounded-full object-cover ${styles["tcard__image"]}`}
 						alt=""
 						src={imageURL}
-						width={165}
-						height={175}
+						width={200}
+						height={190}
 					></Image>
 				</div>
 				<div

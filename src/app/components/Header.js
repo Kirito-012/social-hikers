@@ -84,7 +84,9 @@ const Header = () => {
 						<li
 							className={`inline-block mr-2 ml-2 pl-4 pr-4 pt-1 pb-1 ${styles["names"]} hover:bg-[#21E6C1] hover:text-black rounded-lg`}
 						>
-							<Link href="/">Home</Link>
+							<Link href="/">
+								Home <div className={styles.active}></div>
+							</Link>
 						</li>
 						<li
 							className={`inline-block mr-2 ml-2 pl-4 pr-4 pt-1 pb-1 ${styles["names"]} hover:bg-[#21E6C1] hover:text-black rounded-lg`}

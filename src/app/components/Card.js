@@ -19,12 +19,12 @@ const Card = ({ imageURL, title, descrip }) => {
 			</div>
 			<div className="Info flex justify-center pt-6 items-center flex-col">
 				<div
-					className={`Heading flex items-center font-bold robotoslab text-[1.8rem] tracking-[0.06rem] text-center max-w-[21rem] ${styles["card__title"]}`}
+					className={`Heading leading-[2.2rem] flex items-center font-semibold robotoslab text-[1.6rem] tracking-[-0.02rem] text-center max-w-[21rem] ${styles["card__title"]}`}
 				>
 					{title}
 				</div>
 				<div
-					className={`robotoslab font-medium text-center ${styles["card__description"]}`}
+					className={`robotoslab pt-3 leading-[1.4rem] font-normal text-center ${styles["card__description"]}`}
 				>
 					{descrip}
 				</div>

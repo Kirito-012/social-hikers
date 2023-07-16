@@ -1,3 +1,30 @@
+.tcard__infobg {
+	transition: all 0.3s ease-in-out;
+}
+.tcard__image {
+	transition: all 1s ease-in-out;
+}
+.tcard__imagebg {
+	transition: all 0.6s ease-in-out;
+}
+
+.test__card:hover {
+	.tcard__imagebg {
+		width: 12rem;
+		height: 12rem;
+	}
+	.tcard__image {
+		height: 80%;
+		translate: -10px -10px 0;
+	}
+
+	.tcard__infobg {
+		padding: 0 1.5rem;
+		width: 23rem;
+		height: 21rem;
+	}
+}
+
 /* MEDIA QUERIES */
 
 /* sm */
