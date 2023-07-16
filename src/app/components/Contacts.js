@@ -14,7 +14,7 @@ const Contacts = () => {
 					>
 						<h1>Contact Us</h1>
 					</div>
-					<div className={`flex ${styles["contact_wrapper"]}`}>
+					<div id="contact" className={`flex ${styles["contact_wrapper"]}`}>
 						<div className="">
 							<Contact_info_card />
 						</div>
