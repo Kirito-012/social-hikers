@@ -13,7 +13,7 @@ const Featured = () => {
 					</h1>
 					<div className={style.slider}>
 						<div
-							className={`${style["featured__iconholder"]} opacity-80 bg-[#0C4A9D] flex justify-center gap-12 items-center `}
+							className={`${style["featured__iconholder"]} opacity-80  flex justify-center gap-12 items-center `}
 						>
 							<div className={style.icon_slider}>
 								<Image
