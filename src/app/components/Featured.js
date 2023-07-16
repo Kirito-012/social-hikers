@@ -34,7 +34,7 @@ const Featured = () => {
 							<div className={style.icon_slider}>
 								<Image
 									className={`${style["logo"]} ${style["featured__mxplayerlogo"]}`}
-									src="/MXplayer-logo.png"
+									src="/mx_logo.png"
 									width={255}
 									height={63}
 								></Image>
@@ -90,7 +90,7 @@ const Featured = () => {
 							<div className={style.icon_slider}>
 								<Image
 									className={`${style["logo"]} ${style["featured__mxplayerlogo"]}`}
-									src="/MXplayer-logo.png"
+									src="/mx_logo.png"
 									width={255}
 									height={63}
 								></Image>
